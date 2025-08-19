@@ -1,0 +1,33 @@
+repositories {
+ maven {
+     url = 'https://api.modrinth.com/maven'
+ }
+}
+
+ dependencies {
+    implementation 'maven.modrinth:keepers-of-the-stones-2:NngAy8KX'
+ }
+
+
+repositories {
+ maven {
+     url = 'https://api.modrinth.com/maven'
+ }
+}
+
+ dependencies {
+    implementation 'maven.modrinth:epic-fight:AMdbNVsB'
+ }
+
+
+repositories {
+ maven {
+     url = 'https://maven.kosmx.dev/'
+ }
+}
+
+ dependencies {
+   implementation 'dev.kosmx.player-anim:player-animation-lib-forge:2.0.1+1.21.1'
+ }
+
+

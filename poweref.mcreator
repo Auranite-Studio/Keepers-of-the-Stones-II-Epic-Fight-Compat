@@ -1,0 +1,47 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/com/esmods/poweref/PowerefMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "poweref",
+    "modName": "Keepers of the Stones II: Epic Fight Compat",
+    "version": "1.0.0",
+    "description": "This add-on adds support between the Epic Fight and Keepers of the Stones II mods.",
+    "author": "Auranite Studio",
+    "websiteURL": "https://esmods.com",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [
+      "epicfight",
+      "power"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "cpapi",
+      "epicfight",
+      "playeranimator"
+    ],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created by Auranite Studio",
+    "modElementsPackage": "com.esmods.poweref"
+  },
+  "mcreatorVersion": 202500228120
+}

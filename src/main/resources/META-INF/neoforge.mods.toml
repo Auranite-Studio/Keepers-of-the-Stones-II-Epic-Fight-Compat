@@ -1,0 +1,71 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="poweref"
+version="1.0.0"
+displayName="Keepers of the Stones II: Epic Fight Compat"
+displayURL="https://esmods.com"
+logoFile="logo.png"
+credits="Created by Auranite Studio"
+authors="Auranite Studio"
+description="This add-on adds support between the Epic Fight and Keepers of the Stones II mods."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.poweref]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.176,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.poweref]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.poweref]]
+    modId="epicfight"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.poweref]]
+    modId="power"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.poweref]]
+    modId="cpapi"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.poweref]]
+    modId="epicfight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.poweref]]
+    modId="playeranimator"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
