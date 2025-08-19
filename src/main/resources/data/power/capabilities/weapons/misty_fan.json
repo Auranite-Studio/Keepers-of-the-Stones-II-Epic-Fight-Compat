@@ -1,9 +1,9 @@
 {
     "attributes": {
         "one_hand": {
-            "armor_negation": 12,
-            "impact": 3,
-            "max_strikes": 2,
+            "armor_negation": 3,
+            "impact": 4,
+            "max_strikes": 6,
             "speed_bonus": 0
         }
     },

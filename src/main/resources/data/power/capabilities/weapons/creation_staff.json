@@ -1,11 +1,11 @@
 {
-	"type": "epicfight:trident",
-	"attributes": {
-		"common": {
-			"armor_negation": 0.0,
-  			"impact": 1.0,
-			"max_strikes": 1.0,
-			"speed_bonus": 0.6
+	"attributes":
+	{
+		"common":
+		{
+			"impact":3,
+			"max_strikes":3
 		}
-	}
+	},
+	"type":"epicfight:sword"
 }
