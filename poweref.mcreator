@@ -1,5 +1,18 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "EpicFightCompatLayer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "epic_fight_compat_layer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/esmods/poweref/EpicFightCompatLayer.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
@@ -9,9 +22,19 @@
   },
   "metadata": {
     "files": [
+      "src/main/java/com/esmods/poweref/mixin/PlayerAnimationRendererMixin.java",
+      "src/main/resources/poweref.mixins.json",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/com/esmods/poweref/network/PlayPlayerAnimationMessage.java",
+      "src/main/java/com/esmods/poweref/PowerefMod.java",
+      "src/main/java/com/esmods/poweref/mixin/ItemInHandRendererMixin.java",
+      "src/main/java/com/esmods/poweref/mixin/LevelRendererMixin.java",
+      "src/main/java/com/esmods/poweref/PowerefModPlayerAnimationAPI.java",
+      "src/main/java/com/esmods/poweref/mixin/EntityRenderDispatcherMixin.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/com/esmods/poweref/PowerefMod.java"
+      "src/main/java/com/esmods/poweref/mixin/PlayerAnimationMixin.java",
+      "src/main/java/com/esmods/poweref/network/LoadPlayerAnimationMessage.java",
+      "src/main/java/com/esmods/poweref/mixin/CameraAccessor.java"
     ]
   },
   "foldersRoot": {
@@ -21,7 +44,7 @@
   "workspaceSettings": {
     "modid": "poweref",
     "modName": "Keepers of the Stones II: Epic Fight Compat",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This add-on adds support between the Epic Fight and Keepers of the Stones II mods.",
     "author": "Auranite Studio",
     "websiteURL": "https://esmods.com",
@@ -29,19 +52,19 @@
     "serverSideOnly": false,
     "modPicture": "logo",
     "requiredMods": [
-      "epicfight",
-      "power"
+      "power",
+      "epicfight"
     ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "curios_api",
       "cpapi",
-      "epicfight",
-      "playeranimator"
+      "epic_fight"
     ],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "Created by Auranite Studio",
     "modElementsPackage": "com.esmods.poweref"
   },
-  "mcreatorVersion": 202500228120
+  "mcreatorVersion": 202500344100
 }

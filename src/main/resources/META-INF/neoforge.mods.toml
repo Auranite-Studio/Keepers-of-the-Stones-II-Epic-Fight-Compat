@@ -4,7 +4,7 @@ license="Not specified"
 
 [[mods]]
 modId="poweref"
-version="1.0.0"
+version="1.0.1"
 displayName="Keepers of the Stones II: Epic Fight Compat"
 displayURL="https://esmods.com"
 logoFile="logo.png"
@@ -15,10 +15,16 @@ description="This add-on adds support between the Epic Fight and Keepers of the 
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
+[[mixins]]
+    config = "poweref.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
 [[dependencies.poweref]]
     modId="neoforge"
     type="required"
-    versionRange="[21.1.176,)"
+    versionRange="[21.1.190,)"
     ordering="AFTER"
     side="BOTH"
 
@@ -30,18 +36,24 @@ description="This add-on adds support between the Epic Fight and Keepers of the 
     side="BOTH"
 
 [[dependencies.poweref]]
-    modId="epicfight"
-    type="required"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.poweref]]
     modId="power"
     type="required"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.poweref]]
+    modId="epicfight"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
+[[dependencies.poweref]]
+    modId="curios_api"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 [[dependencies.poweref]]
     modId="cpapi"
     type="optional"
@@ -49,22 +61,11 @@ description="This add-on adds support between the Epic Fight and Keepers of the 
     ordering="NONE"
     side="BOTH"
 [[dependencies.poweref]]
-    modId="epicfight"
+    modId="epic_fight"
     type="optional"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.poweref]]
-    modId="playeranimator"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-
-
-
-# Start of user code block custom mixins
-# End of user code block custom mixins
 
 
 # Start of user code block dependencies configuration

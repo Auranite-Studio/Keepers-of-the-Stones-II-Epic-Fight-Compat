@@ -1,12 +1,14 @@
 repositories {
- maven {
-     url = 'https://api.modrinth.com/maven'
- }
+maven {
+  name = "Illusive Soulworks maven"
+  url = "https://maven.theillusivec4.top/"
+  }
 }
 
- dependencies {
-    implementation 'maven.modrinth:keepers-of-the-stones-2:NngAy8KX'
- }
+dependencies {
+  runtimeOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1"
+  compileOnly "top.theillusivec4.curios:curios-neoforge:9.5.1+1.21.1:api"
+}
 
 
 repositories {
@@ -16,18 +18,18 @@ repositories {
 }
 
  dependencies {
-    implementation 'maven.modrinth:epic-fight:AMdbNVsB'
+    implementation 'maven.modrinth:keepers-of-the-stones-2:9mZNJO32'
  }
 
 
 repositories {
- maven {
-     url = 'https://maven.kosmx.dev/'
- }
+  maven {
+      url = 'https://api.modrinth.com/maven'
+  }
 }
 
- dependencies {
-   implementation 'dev.kosmx.player-anim:player-animation-lib-forge:2.0.1+1.21.1'
- }
+dependencies {
+  implementation 'maven.modrinth:epic-fight:AMdbNVsB'
+}
 
 
